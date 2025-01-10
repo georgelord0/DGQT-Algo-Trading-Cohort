@@ -14583,12 +14583,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14601,32 +14601,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>c:\Users\basic\anaconda3\lib\site-packages\pandas\core\computation\expressions.py:21: UserWarning: Pandas requires version &#39;2.8.4&#39; or newer of &#39;numexpr&#39; (version &#39;2.8.1&#39; currently installed).
-  from pandas.core.computation.check import NUMEXPR_INSTALLED
-c:\Users\basic\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:60: UserWarning: Pandas requires version &#39;1.3.6&#39; or newer of &#39;bottleneck&#39; (version &#39;1.3.4&#39; currently installed).
-  from pandas.core import (
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -14661,7 +14635,7 @@ c:\Users\basic\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:60: User
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">stock_ticker</span> <span class="o">=</span> <span class="s2">&quot;MSFT&quot;</span>  <span class="c1"># Microsoft</span>
@@ -14688,7 +14662,6 @@ c:\Users\basic\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:60: User
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>[*********************100%***********************]  1 of 1 completed
-
 </pre>
 </div>
 </div>
@@ -14714,7 +14687,7 @@ c:\Users\basic\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:60: User
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">pct_change</span><span class="p">()</span>  <span class="c1"># Calculate daily percent return</span>
@@ -14737,7 +14710,7 @@ c:\Users\basic\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:60: User
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -14781,7 +14754,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">daily_vol</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>  <span class="c1"># Calculate daily volatility</span>
@@ -14833,7 +14806,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">daily_mean_returns</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>  <span class="c1"># Calculate daily mean returns</span>
@@ -14898,7 +14871,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;Close&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>  <span class="c1"># Confirming there are 252 trading days in our timeframe.</span>
@@ -14937,7 +14910,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_returns_annualized</span> <span class="o">=</span> <span class="n">daily_mean_returns</span> <span class="o">*</span> <span class="mi">252</span>  <span class="c1"># Annualize mean returns</span>
@@ -15001,7 +14974,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tbill_data</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s2">&quot;^IRX&quot;</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="s2">&quot;2024-01-01&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2025-01-03&quot;</span><span class="p">)</span>  <span class="c1"># Get last year&#39;s T-bill data</span>
@@ -15054,7 +15027,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">risk_free_rate</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">tbill_data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">/</span> <span class="mi">100</span> <span class="c1"># Get the risk-free rate from the first row, scaled</span>
@@ -15080,7 +15053,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\basic\AppData\Local\Temp\ipykernel_11548\4101408915.py:1: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+<pre>C:\Users\basic\AppData\Local\Temp\ipykernel_3352\4101408915.py:1: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
   risk_free_rate = float(tbill_data[&#39;Close&#39;].iloc[0]) / 100 # Get the risk-free rate from the first row, scaled
 </pre>
 </div>
@@ -15089,7 +15062,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 
 
 
@@ -15121,7 +15094,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">excess_annualized_return</span> <span class="o">=</span> <span class="n">mean_returns_annualized</span> <span class="o">-</span> <span class="n">risk_free_rate</span>  <span class="c1"># Calculate excess returns</span>
@@ -15173,7 +15146,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sharpe</span> <span class="o">=</span> <span class="n">excess_annualized_return</span> <span class="o">/</span> <span class="n">volatility_annualized</span>  <span class="c1"># Calculate Sharpe ratio</span>
@@ -15195,7 +15168,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 
 
 
@@ -15249,7 +15222,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cum_returns</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">cumprod</span><span class="p">()</span>  <span class="c1"># Calculate cumulative returns</span>
@@ -15274,7 +15247,7 @@ Name: Pct Return, Length: 252, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 
 
 
@@ -15324,7 +15297,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">max_drawdown</span> <span class="o">=</span> <span class="n">drawdown</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>  <span class="c1"># Calculate maximum drawdown</span>
@@ -15387,7 +15360,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">downside_deviation</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>  <span class="c1"># Calculate downside deviation</span>
@@ -15452,7 +15425,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">var</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.05</span><span class="p">)</span> <span class="c1"># Calculate VaR</span>
@@ -15527,7 +15500,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cvar</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;Pct Return&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">var</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>  <span class="c1"># Calculate CVaR</span>
@@ -15560,6 +15533,660 @@ jp-needs-light-background
 
 </div>
 
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Step-5:-Mean-Variance-Optimization-Demo">Step 5: Mean Variance Optimization Demo<a class="anchor-link" href="#Step-5:-Mean-Variance-Optimization-Demo">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's take a basket of stocks and compare the performance of holding them all equally to a mean-variance approach:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">stocks</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">download</span><span class="p">([</span><span class="s2">&quot;AAPL&quot;</span><span class="p">,</span> <span class="s2">&quot;NVDA&quot;</span><span class="p">,</span> <span class="s2">&quot;MSFT&quot;</span><span class="p">,</span> <span class="s2">&quot;AMZN&quot;</span><span class="p">,</span> <span class="s2">&quot;META&quot;</span><span class="p">],</span> <span class="n">start</span><span class="o">=</span><span class="s2">&quot;2024-01-01&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2025-01-03&quot;</span><span class="p">)</span>  <span class="c1"># Get last year&#39;s daily price data for MSFT</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>[*********************100%***********************]  5 of 5 completed
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">stocks_returns</span> <span class="o">=</span> <span class="n">stocks</span><span class="p">[</span><span class="s2">&quot;Close&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">pct_change</span><span class="p">()</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+<span class="n">stocks_returns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Ticker</th>
+      <th>AAPL</th>
+      <th>AMZN</th>
+      <th>META</th>
+      <th>MSFT</th>
+      <th>NVDA</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2024-01-03</th>
+      <td>-0.007488</td>
+      <td>-0.009738</td>
+      <td>-0.005256</td>
+      <td>-0.000728</td>
+      <td>-0.012436</td>
+    </tr>
+    <tr>
+      <th>2024-01-04</th>
+      <td>-0.012700</td>
+      <td>-0.026268</td>
+      <td>0.007693</td>
+      <td>-0.007178</td>
+      <td>0.009018</td>
+    </tr>
+    <tr>
+      <th>2024-01-05</th>
+      <td>-0.004013</td>
+      <td>0.004634</td>
+      <td>0.013915</td>
+      <td>-0.000516</td>
+      <td>0.022897</td>
+    </tr>
+    <tr>
+      <th>2024-01-08</th>
+      <td>0.024175</td>
+      <td>0.026577</td>
+      <td>0.019065</td>
+      <td>0.018872</td>
+      <td>0.064281</td>
+    </tr>
+    <tr>
+      <th>2024-01-09</th>
+      <td>-0.002263</td>
+      <td>0.015225</td>
+      <td>-0.003429</td>
+      <td>0.002936</td>
+      <td>0.016975</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2024-12-26</th>
+      <td>0.003176</td>
+      <td>-0.008732</td>
+      <td>-0.007240</td>
+      <td>-0.002777</td>
+      <td>-0.002068</td>
+    </tr>
+    <tr>
+      <th>2024-12-27</th>
+      <td>-0.013242</td>
+      <td>-0.014534</td>
+      <td>-0.005867</td>
+      <td>-0.017302</td>
+      <td>-0.020868</td>
+    </tr>
+    <tr>
+      <th>2024-12-30</th>
+      <td>-0.013263</td>
+      <td>-0.010950</td>
+      <td>-0.014288</td>
+      <td>-0.013240</td>
+      <td>0.003503</td>
+    </tr>
+    <tr>
+      <th>2024-12-31</th>
+      <td>-0.007058</td>
+      <td>-0.008631</td>
+      <td>-0.009691</td>
+      <td>-0.007838</td>
+      <td>-0.023275</td>
+    </tr>
+    <tr>
+      <th>2025-01-02</th>
+      <td>-0.026236</td>
+      <td>0.003783</td>
+      <td>0.023450</td>
+      <td>-0.006928</td>
+      <td>0.029935</td>
+    </tr>
+  </tbody>
+</table>
+<p>252 rows × 5 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">stock_prices</span> <span class="o">=</span> <span class="n">stocks</span><span class="p">[</span><span class="s2">&quot;Adj Close&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s2">&quot;all&quot;</span><span class="p">)</span>
+<span class="n">stock_prices</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Ticker</th>
+      <th>AAPL</th>
+      <th>AMZN</th>
+      <th>META</th>
+      <th>MSFT</th>
+      <th>NVDA</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2024-01-02</th>
+      <td>184.734970</td>
+      <td>149.929993</td>
+      <td>344.972260</td>
+      <td>368.117279</td>
+      <td>48.154346</td>
+    </tr>
+    <tr>
+      <th>2024-01-03</th>
+      <td>183.351746</td>
+      <td>148.470001</td>
+      <td>343.159180</td>
+      <td>367.849243</td>
+      <td>47.555519</td>
+    </tr>
+    <tr>
+      <th>2024-01-04</th>
+      <td>181.023163</td>
+      <td>144.570007</td>
+      <td>345.799072</td>
+      <td>365.208984</td>
+      <td>47.984398</td>
+    </tr>
+    <tr>
+      <th>2024-01-05</th>
+      <td>180.296722</td>
+      <td>145.240005</td>
+      <td>350.610687</td>
+      <td>365.020386</td>
+      <td>49.083080</td>
+    </tr>
+    <tr>
+      <th>2024-01-08</th>
+      <td>184.655365</td>
+      <td>149.100006</td>
+      <td>357.295166</td>
+      <td>371.908936</td>
+      <td>52.238186</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2024-12-26</th>
+      <td>259.019989</td>
+      <td>227.050003</td>
+      <td>603.349976</td>
+      <td>438.109985</td>
+      <td>139.929993</td>
+    </tr>
+    <tr>
+      <th>2024-12-27</th>
+      <td>255.589996</td>
+      <td>223.750000</td>
+      <td>599.809998</td>
+      <td>430.529999</td>
+      <td>137.009995</td>
+    </tr>
+    <tr>
+      <th>2024-12-30</th>
+      <td>252.199997</td>
+      <td>221.300003</td>
+      <td>591.239990</td>
+      <td>424.829987</td>
+      <td>137.490005</td>
+    </tr>
+    <tr>
+      <th>2024-12-31</th>
+      <td>250.419998</td>
+      <td>219.389999</td>
+      <td>585.510010</td>
+      <td>421.500000</td>
+      <td>134.289993</td>
+    </tr>
+    <tr>
+      <th>2025-01-02</th>
+      <td>243.850006</td>
+      <td>220.220001</td>
+      <td>599.239990</td>
+      <td>418.579987</td>
+      <td>138.309998</td>
+    </tr>
+  </tbody>
+</table>
+<p>253 rows × 5 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>I found a convenient library to help us with the mean variance optimization:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install PyPortfolioOpt
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Requirement already satisfied: PyPortfolioOpt in c:\users\basic\anaconda3\lib\site-packages (1.5.6)
+Requirement already satisfied: cvxpy&gt;=1.1.19 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (1.6.0)
+Requirement already satisfied: plotly&lt;6.0.0,&gt;=5.0.0 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (5.6.0)
+Requirement already satisfied: pandas&gt;=0.19 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (2.2.0)
+Requirement already satisfied: ecos&lt;3.0.0,&gt;=2.0.14 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (2.0.14)
+Requirement already satisfied: scipy&gt;=1.3 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (1.12.0)
+Requirement already satisfied: numpy&gt;=1.26.0 in c:\users\basic\anaconda3\lib\site-packages (from PyPortfolioOpt) (1.26.3)
+Requirement already satisfied: scs&gt;=3.2.4.post1 in c:\users\basic\anaconda3\lib\site-packages (from cvxpy&gt;=1.1.19-&gt;PyPortfolioOpt) (3.2.7.post2)
+Requirement already satisfied: osqp&gt;=0.6.2 in c:\users\basic\anaconda3\lib\site-packages (from cvxpy&gt;=1.1.19-&gt;PyPortfolioOpt) (0.6.7.post3)
+Requirement already satisfied: clarabel&gt;=0.5.0 in c:\users\basic\anaconda3\lib\site-packages (from cvxpy&gt;=1.1.19-&gt;PyPortfolioOpt) (0.9.0)
+Requirement already satisfied: qdldl in c:\users\basic\anaconda3\lib\site-packages (from osqp&gt;=0.6.2-&gt;cvxpy&gt;=1.1.19-&gt;PyPortfolioOpt) (0.1.7.post5)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\basic\anaconda3\lib\site-packages (from pandas&gt;=0.19-&gt;PyPortfolioOpt) (2024.2)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\basic\anaconda3\lib\site-packages (from pandas&gt;=0.19-&gt;PyPortfolioOpt) (2023.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\basic\anaconda3\lib\site-packages (from pandas&gt;=0.19-&gt;PyPortfolioOpt) (2.8.2)
+Requirement already satisfied: tenacity&gt;=6.2.0 in c:\users\basic\anaconda3\lib\site-packages (from plotly&lt;6.0.0,&gt;=5.0.0-&gt;PyPortfolioOpt) (8.0.1)
+Requirement already satisfied: six in c:\users\basic\anaconda3\lib\site-packages (from plotly&lt;6.0.0,&gt;=5.0.0-&gt;PyPortfolioOpt) (1.16.0)
+Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pypfopt</span> <span class="kn">import</span> <span class="n">EfficientFrontier</span>
+<span class="kn">from</span> <span class="nn">pypfopt</span> <span class="kn">import</span> <span class="n">risk_models</span>
+<span class="kn">from</span> <span class="nn">pypfopt</span> <span class="kn">import</span> <span class="n">plotting</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We need to calculate the covariances between stocks to do the mean variance calculation:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cov_matrix</span> <span class="o">=</span> <span class="n">risk_models</span><span class="o">.</span><span class="n">CovarianceShrinkage</span><span class="p">(</span><span class="n">stock_prices</span><span class="p">)</span><span class="o">.</span><span class="n">ledoit_wolf</span><span class="p">()</span>  <span class="c1"># Calculate covariance matrix</span>
+<span class="n">plotting</span><span class="o">.</span><span class="n">plot_covariance</span><span class="p">(</span><span class="n">cov_matrix</span><span class="p">,</span> <span class="n">plot_correlation</span><span class="o">=</span><span class="kc">True</span><span class="p">);</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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"
+class="
+jp-needs-light-background
+"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Now let's calculate the weights (the % long allocation for positive or % short allocation for negative numbers) we should allocate the 5 stocks to in a mean-variance optimized fashion:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ef</span> <span class="o">=</span> <span class="n">EfficientFrontier</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">cov_matrix</span><span class="p">,</span> <span class="n">weight_bounds</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+<span class="n">ef</span><span class="o">.</span><span class="n">min_volatility</span><span class="p">()</span>
+<span class="n">weights</span> <span class="o">=</span> <span class="n">ef</span><span class="o">.</span><span class="n">clean_weights</span><span class="p">()</span>
+<span class="n">weights</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>OrderedDict([(&#39;AAPL&#39;, 0.40177),
+             (&#39;AMZN&#39;, 0.09586),
+             (&#39;META&#39;, 0.03427),
+             (&#39;MSFT&#39;, 0.4965),
+             (&#39;NVDA&#39;, -0.02841)])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Step-6-(YOUR-TURN):-Compare-the-MV-Optimized-and-Equal-Weight-Portfolios">Step 6 (YOUR TURN): Compare the MV-Optimized and Equal Weight Portfolios<a class="anchor-link" href="#Step-6-(YOUR-TURN):-Compare-the-MV-Optimized-and-Equal-Weight-Portfolios">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Now that we have the weights, it is your turn to do the following using what we learned in the past two lectures:</p>
+<p>Calculate:</p>
+<ul>
+<li>The daily return and volatility of the equal-weight portfolio</li>
+<li>The daily return and volatility of the MV-weight portfolio</li>
+<li>The annualized return and volatility of both</li>
+<li>The sharpe ratio, MDD, Sortino, VaR, and CVaR of both</li>
+</ul>
+<p>Plot (over the year):</p>
+<ul>
+<li>The daily returns of both portfolios</li>
+<li>The cummulative returns of both portfolios</li>
+<li>The drawdowns of both portfolios</li>
+</ul>
+<p><strong>Bonus</strong>: Try and double the each weight given to the MV portfolio's assets. What happens to the returns and risk?</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Hint (to start):</span>
+
+<span class="n">weights</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">weights</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>  <span class="c1"># Convert the dictionary to a list</span>
+<span class="n">mv_daily_returns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">stocks_returns</span><span class="p">)</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span>  <span class="c1"># Calculate portfolio daily returns</span>
+<span class="n">mv_cum_returns</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">mv_daily_returns</span><span class="p">)</span><span class="o">.</span><span class="n">cumprod</span><span class="p">()</span>  <span class="c1"># Calculate cumulative returns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>

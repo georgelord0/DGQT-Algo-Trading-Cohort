@@ -10,7 +10,7 @@ Overall Course Outline:
   - Run lagging regression with statsmodels for basic return prediction.
 - Week 2: Performance Metrics and Modern Portfolio Theory
   - Sharpe, MDD, etc. explained + implementation
-  - Mean-Variance Optimization explained
+  - Mean-Variance Optimization explained + implementation
 - Week 3: Trading Strategies and Technical Indicators
   - Various textbook strategies explained + implementation exercise
   - Various TIs explained + implementation exercise
