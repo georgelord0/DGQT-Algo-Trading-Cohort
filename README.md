@@ -9,8 +9,8 @@ Overall Course Outline:
   - Plot price and returns with matplotlib
   - Run lagging regression with statsmodels for basic return prediction.
 - Week 2: Performance Metrics and Modern Portfolio Theory
-  - Sharpe, MDD, etc. explained
-  - Mean-Variance Optimization + implementation exercise
+  - Sharpe, MDD, etc. explained + implementation
+  - Mean-Variance Optimization explained
 - Week 3: Trading Strategies and Technical Indicators
   - Various textbook strategies explained + implementation exercise
   - Various TIs explained + implementation exercise
