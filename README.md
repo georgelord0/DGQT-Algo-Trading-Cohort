@@ -17,7 +17,7 @@ Overall Course Outline:
 - Week 4: Backtesting + Introducing Algo Project
   - Learning to backtest given strategies and analyze backtests (and walk-forwards)
   - Setting up Alpaca
-  - Walking through sample strategy code (such as mean reversion AAPL GOOGL)
+  - Walking through sample alpaca trade execution code2
 - Week 5+: Working on project (work during cohort session, George+Erik open for help/questions)
 - By Week 6: Have everyone researched and devised a specific strategy
 - By Week 7: Have working code for strategy on alpaca
