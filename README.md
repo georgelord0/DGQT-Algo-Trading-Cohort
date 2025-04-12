@@ -19,8 +19,9 @@ Overall Course Outline:
   - Setting up Alpaca
   - Walking through sample alpaca trade execution code2
 - Week 5+: Working on project (work during cohort session, George+Erik open for help/questions)
+  Assignment: https://docs.google.com/document/d/1GgRuODYlxGdBn6HAxnltpCFQ8SaPvZnkbHUDXVdnMf8/edit?usp=sharing
 - By Week 6: Have everyone researched and devised a specific strategy
-- By Week 7: Have working code for strategy on alpaca
-- By Week 8: Have backtest for strategy
+- By Week 7: Have backtest for strategy
+- By Week 8: Have working code for strategy on alpaca
 - By Week 9: Have people run their strategy for at least a day as “walk forward”
 - By Week 10: People present and analyze their strategy’s backtest, walk forward performance, pitfalls, improvements, etc.
